@@ -17,7 +17,7 @@ namespace Web_Request
 
                 // Prepare the web page
                 HttpWebRequest request = (HttpWebRequest)
-                    WebRequest.Create("http://www.oguzhantas.com");
+                    WebRequest.Create("http://www.example.com");
 
                 HttpWebResponse response = (HttpWebResponse)
                     request.GetResponse();
